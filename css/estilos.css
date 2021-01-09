@@ -1,0 +1,222 @@
+html{
+    font-size: 62.5%;
+    /* Nomalizar para rems */
+}
+@font-face{
+    font-family: 'chula', sans-serif;
+    src: url(../fonts.zip);
+}
+body{
+    font-family: 'chula', sans-serif;
+    font-size: 1.6rem;
+}
+/* Principales */
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.6rem;
+}
+.contenedor{
+   max-width: 140rem;
+   margin: 0 auto; 
+}
+.espacio{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fw300{
+    font-weight: 300;
+}
+.centrar-texto{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+
+.boton{
+    background-color: greenyellow;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    display: block;
+    border-radius: 3rem;
+}
+
+.boton-principal{
+    background-color: gray;
+}
+
+.boton-secundario{
+    background-color: slategray;
+    display: inline;
+}
+
+
+/* header */
+.site-header{
+    background-image: url(../img/unnamed.jpg);
+    height: 100vh;
+    min-height: 5rem;
+    background-position: center center;
+    background-size: cover;
+}
+.contenido-header{ 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 10px; */
+
+}
+.barra img{
+    max-width: 55%;
+    padding: 3.4rem 1rem 1rem 5rem;
+}
+
+/* navegacion  */
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 3rem;
+    text-shadow: -10px -20px .7rem rgb(122, 122, 122);
+}
+.navegacion a:hover{
+    color: yellowgreen;
+}
+.navegacion a:last-of-type{
+    margin: 0;
+}
+
+#slogan h1{
+    color: rgb(60, 104, 9);
+    text-shadow: -10px -20px .7rem rgb(174, 174, 174);
+}
+/* Porque elegirnos */
+.elegirnos{
+    display: flex;
+    justify-content: space-between;
+}
+.razones{
+    flex-basis: calc(25% - 3rem);
+    text-align: center;
+}
+.razones i{
+    font-size: 5rem;
+    color: green;
+    text-shadow: -.2rem -.4rem .1rem rgb(87, 87, 87);
+}
+.oferta{
+    display: flex;
+    justify-content: space-between;
+}
+.servicio{
+    flex-basis: calc(25% - 3rem);
+    border-style: dotted;
+    border-color: grey;
+    border-width: .2rem;
+    /* border: .1rem dotted gray; */
+}
+.contenido-servicio{
+    padding: 2rem;
+    text-align: center;
+}
+.contenido-servicio p{
+    margin: 0;
+}
+.contenido-servicio h3{
+    margin: 0;
+}
+.precio{
+    color: green;
+    font-weight: 700;
+}
+/* Nuestos numero */
+.imagen-contacto{
+    background-color: gray;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.contenido-contacto{
+    font-size: 2.6rem;
+}
+
+/* Sección inferior */
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+}
+.seccion-inferior .blog{
+    flex-basis: 60%;
+}
+.seccion-inferior .testimoniales{
+    flex-basis: calc(40% - 2rem);
+}
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.entrada-blog:last-of-type{
+    margin-bottom: 0%;
+}
+.entrada-blog .imagen{
+    flex-basis: 40%;
+}
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+}
+.texto-entrada a{
+    color: green;
+    text-decoration: none;
+}
+.texto-entrada h4{
+    margin: 0;
+}
+.texto-entrada h4::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: .5rem;
+    background-color: grey;
+}
+.testimonial{
+    background-color: yellowgreen;
+    font-size: 2.8rem;
+    padding: 6rem;
+    color: white;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+.site-footer{
+    height: 4rem;
+    min-height: 4rem;
+    background-color: gray;
+    margin: 2rem;
+    padding: 6rem;
+}
+.footer{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-shadow: none;
+}
